@@ -1,0 +1,251 @@
+
+#login,#signUp,#errorLogin,.alert, #articlesContainer, #examinationsContainer, #formTitle,#examinationsTitle,#calendarTitle, #formContainer,#calendarContainer,#usersContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4392F1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top:10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    margin-top:20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.alertUnread{
+  color:#E37063;
+}
+
+#login, #signUp, #errorLogin,.alert{
+  width: 80%;
+}
+
+#formTitle,#examinationsTitle,#calendarTitle{
+  width: 50%;
+  background-color: #ECE8EF;
+  text-align: center;
+  font-size: 15px;
+  color:black;
+  padding-bottom: 10px;
+}
+
+#articlesContainer, #examinationsContainer, #calendarContainer,#usersContainer{
+  width: 100%;
+}
+
+#errorLogin > p, .alert >p{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+
+#successAlert{
+  background-color: #95d5b2;
+}
+#errorLogin, .alert{
+  background-color: #DC493A;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#login input,#signUp input, .deleteButtonUserPage,.deleteButtonCalendarPage, #formContainer select, .selectCalendarPage, textarea, #formContainer input,.chatButton{
+    display:block;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin:10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    border-style: none;
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    font-family: Avenir,Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:15px;
+    outline: 0;
+  }
+
+  .chatButton{
+    width:30%;
+
+  }
+
+  textarea{
+    text-align: left;
+    width: 50%;
+    height: 100px;
+    resize: none;
+  }
+  #formContainer h3{
+    width: 50%;
+    text-align: center;
+  }
+
+  #formContainer select,.selectCalendarPage{
+    text-align: right;
+    width:30%;
+  }
+  #inputTitleArticle{
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #inputTextArticle{
+    width: 80%;
+    height:400px;
+  }
+
+  .infoCalendar,.infoUser{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin:20px 0;
+
+  }
+
+  #login input:hover, #login input:focus, #signUp input:hover, #signUp input:focus, .deleteButtonUserPage:focus, .deleteButtonUserPage:hover, #formContainer textarea:focus, #formContainer textarea:hover, #formContainer input:focus, #formContainer input:hover,.deleteButtonCalendarPage:focus,.deleteButtonCalendarPage:hover,.chatButton:hover,.chatButton:focus{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: 0;
+  }
+
+  h3{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #login input[type="submit"],  #formContainer input[type="submit"],  #signUp input[type="button"], .deleteButtonUserPage,.deleteButtonCalendarPage{
+      margin-top:20px;
+      background-color: #FFFFFF;      
+  }
+
+  .unreadNotification{
+    width:40px;
+    height: 40px;
+    background-color: #fa503d;
+    border-radius: 100%;
+    position: relative;
+    left:99%;
+    top:-140px;
+    margin-bottom:-50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .unread{
+    color:red;
+  }
+  .deleteButtonUserPage{
+    width:70px;
+    color:red;
+  }
+  .deleteButtonCalendarPage{
+    width:50%;
+    color:red;
+  }
+
+  .articleMainPage, .examinationUserPage, .appointmentAdminPage,.user{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ECE8EF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top:10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    margin-top:20px;
+    text-align: justify;
+    font-size: 15px;
+    width: 80%;
+  }
+
+  .user{
+    background-color: #95d5b2;
+  }
+  .deletedExamination{
+    background-color: #E37063;
+  }
+
+  .futureExamination{
+    background-color: #95d5b2;
+  }
+
+  .pastExamination{
+    background-color:#ADB5BD;
+  }
+
+  .textArticleMainPage{
+    padding:0px 40px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .noteExaminationUserPage,.noteAppointmentAdminPage{
+    display:block;
+    padding:0px 40px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .titleArticleMainPage,.dataExaminationUserPage,.nameAppointmentAdminPage{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .timeExaminationUserPage,.timeAppointmentAdminPage{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  #buttonArticlesContainer, #buttonExaminationsContainer,#buttonsCalendarContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #buttonArticlesContainer button, #buttonExaminationsContainer button,#buttonsCalendarContainer button{
+    display:block;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin:10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    border-style: none;
+    border-radius:10px;
+    border: 1px solid #eee;
+    background-color: #FFFFFF;
+    transition: .3s border-color;
+    font-family: Avenir,Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #buttonArticlesContainer button:focus, #buttonExaminationsContainer button:focus,#buttonsCalendarContainer{
+    outline:0;
+  }
+
+  .timeArticleMainPage{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    text-align: right;
+  }

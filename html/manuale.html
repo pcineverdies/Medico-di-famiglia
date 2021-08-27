@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Manuale</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./../css/global.css">
+        <link rel="stylesheet" href="./../css/doc.css">
+        <link rel="stylesheet" href="./../css/rightSide.css">
+        <link rel="icon" href="./../img/favicon.ico" type="image/ico">
+
+    </head>
+    <body>
+        <div id="containerText">
+            <section>
+                <h1>Manuale d'uso</h1>
+                Il sito propone un approccio <em>smart</em> alla gestione dell studio di un medico di famiglia, venendo incontro ad esigenze nate in questo periodo di emergenza sanitaria, come la necessità di evitare assembramenti.
+                <h2>Lato utente</h2>
+                Una volta registrati al sito, gli utenti avranno la possibilità di visualizzare una bacheca di articoli pubblicati dal medico stesso, inerenti comunicazioni o consigli di carattere sanitario. Sulla destra si possono vedere tre bottoni.
+                Il primo, <strong>Prenotazioni</strong>, fornisce una pagina in cui sono visualizzate tutte le prenotazioni effettuate. Una prenotazione sarà grigia se la data è antecedente a quella odierna, verde se valida (nel qual caso, è possibile procedere all'eliminazione) o rossa. Una visita del genere è stata legittimamente prenotata in un giorno disponibile, ma il dottore ha scelto poi di annullare il dato giorno di ambulatorio. In questo modo, se il giorno di ambulatorio dovesse rimanere rosso, non sarà possibile fare la visita, ma, se il dottore dovesse scegliere di rendere il giorno nuovamente disponibile, la prenotazione rimarrà ancora valida.
+                Il secondo bottone,  <strong>Prenota una visita</strong>, consente di prenotare una visita. La prima selezione mostra i giorni di ambulatorio disponibili. Non è possibile prenotare una visita per il giorno stesso. Succesivamente, c'è un'altra selezione, in cui si  inserisce l'orario tra quelli disponibile (si suppone che una visita abbia una durata media di 15 minuti). Infine,  si può aggiungere una nota, per anticipare al medico alcune esigenze. Non è possibile prenotare due visite per la  stessa giornata.
+                Il terzo e ultimo bottone, <strong>Chat</strong>, consente di aprire la chat con il medico. Quest'ultimo riceverà in tempo reale i messaggi, e risponderà il prima possibile. Si raccomanda un atteggiamento maturo e responsabile, visto che il medico sarà consapevole della vostra identità.
+                <h2>Lato admin</h2>
+                L'accesso all'area admin mostrerà la lista degli articoli, e dei bottoni sulla sinistra.
+                Il primo, <strong>Gestione articoli</strong>, consente di aggiungere un articolo o modificare uno già esistente. La prima selezione distingue i due casi: selezionando il titolo di un articolo già presente, esso sarà caricato nell'area di testo, e la pressione del tasto sul fondo consentirà la modifica (o l'aggiunta, se si è selezionato <em>nuovo articolo</em>).
+                Il secondo, <strong>Calendario</strong>, permette di visualizzare, sotto forma di calendario mensile, gli impegni dei giorni. I giorni di colore bianco sono quelli in cui non si ha ancora un giorno di ambulatorio. In questo caso è possibile aggiungerlo premendovi e usando le selezioni che compaiono in fondo per l'orario di apertura e chiusura. Una volta inserito, esso sarà verde sul calendario. Se qualcuno ha prenotato una visita, essa sarà visibile sul fondo dopo aver selezionato il giorno. E' possibile rimuovare un giorno di ambulatorio con l'apposito tasto. Se c'erano delle visite prenotate, esso diventerà di colore rosso, ed un eventaule riapertura manterrà prenotate le visite già presenti.
+                Il terzo bottone, <strong>Chat</strong>, consente di iniziare la chat con gli utenti, avendo una lista degli iscritti al sito. Se ci sono dei messaggi non letti, gli utenti verrano visualizzati per primi, con un pallino rosso in alto a destra ad indicare la notifica. 
+            </section>
+            <ul id="returnButton"><li><a href="./../php/pages/homePage.php">Torna alla HomePage</a></li></ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+
+/*
+    Il pattern è stato preso dal sito http://projects.verou.me/css3patterns/
+*/
+body{
+    font-family: Helvetica, sans-serif;
+    background:
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: #E3EBFF;
+    background-size:75px 100px;
+}
+
+#containerBody{
+    display: flex;
+    justify-content: space-around;
+}
+
+#leftSide{
+    width: 60%;
+}
+
+#rightSide{
+    width: 30%;
+}

@@ -1,0 +1,44 @@
+table{
+    table-layout: fixed;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #0A4185;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding:30px 10px;
+}
+
+th{
+    text-align: center;
+    padding-bottom: 20px;
+    color:white;
+}
+
+td{
+    width: 100px;
+    background-color: #ECE8EF;
+    height: 60px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.accessibleDay{
+    background-color: #95d5b2;
+}
+
+.removedDay{
+    background-color: #E37063;
+}
+
+.past{
+    background-color: #ADB5BD;
+}
+
+.empty{
+    border:0;
+    background-color: unset;
+}

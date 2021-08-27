@@ -1,0 +1,76 @@
+#containerText,section{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 10%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    margin-top:20px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+section{
+    font-family: Open Sans, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    width:80%;
+    padding: 20px 10%;
+    font-size: 20px;
+    background-color: #ECE8EF;
+    white-space: pre-line;
+}
+
+#containerText{
+    width:50%;
+    background-color: #4392F1;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size:20px;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+#returnButton > li{
+    width: 180px;
+    text-align: center;
+    background-color: #ECE8EF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    margin-top:10px;
+}
+
+#returnButton a{
+    display: block;
+    width: 100%;
+    padding:20px 0;
+}
+
+#returnButton > li:hover{
+    background-color: #0A4185;
+    color: white;
+}
+
+#returnButton  a:link{
+    color:inherit;
+    text-decoration: none;
+}
+#returnButton  a:visited{
+    color:inherit;
+    text-decoration: none;
+}
+
+#returnButton{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left:0;
+}

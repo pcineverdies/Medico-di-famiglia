@@ -1,0 +1,84 @@
+#contatti,#disclaimerLogin,#actionsContainer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top:10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    margin:20px;
+    border-radius: 6px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#actionsContainer{
+    background-color: #E37063;
+    text-align: center;
+    list-style: none;
+    min-width: 300px;
+}
+
+#disclaimerLogin{
+    background-color: #DC493A;
+    color:black;
+}
+
+#contatti{
+    background-color: #4392F1;
+}
+
+address{
+    text-align: center;
+}
+
+#contatti > p, #disclaimerLogin > p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#rightSide h2{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rightSide  img{
+    width: 100%;
+    border:1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#actionsContainer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#actionsContainer  li{
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    text-align: center;
+    background-color: #ECE8EF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    margin-top:10px;
+}
+
+#actionsContainer a{
+    display: block;
+    width: 100%;
+    padding:20px 0;
+}
+
+#actionsContainer  li:hover{
+    background-color: #0A4185;
+    color: white;
+}
+
+#actionsContainer  a:link,#actionsContainer  a:visited{
+    color:inherit;
+    text-decoration: none;
+}
+  
